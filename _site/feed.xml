@@ -6,56 +6,9 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 03 Dec 2016 20:02:59 +0530</pubDate>
-    <lastBuildDate>Sat, 03 Dec 2016 20:02:59 +0530</lastBuildDate>
+    <pubDate>Sat, 03 Dec 2016 21:29:16 +0530</pubDate>
+    <lastBuildDate>Sat, 03 Dec 2016 21:29:16 +0530</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
-    
-      <item>
-        <title>Calculator App</title>
-        <description>&lt;p&gt;Yeppieee...!!!&lt;/p&gt;
-&lt;p&gt;Completed my calculator app.&lt;/p&gt;
-&lt;p&gt;The calculator app contains all the basic mathematical operations like PLUS,MINUS,DIVISION and MULTIPLICATION.&lt;/p&gt;
-&lt;p&gt;The design of the app looks cool and the background is crazy..&lt;/p&gt;
-&lt;p&gt;Please check the app from below link.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://vineetsouri.github.io/NewCalci&quot;&gt;Link to Calculator App.&lt;/a&gt;&lt;/p&gt;</description>
-        <pubDate>Sat, 30 May 2015 16:53:03 +0530</pubDate>
-        <link>http://localhost:4000/jekyll/update/2015/05/30/Calculator.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2015/05/30/Calculator.html</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>Update on Codecademy basics..!!</title>
-        <description>Guys feeling happy to announce that i have completed my codecademy basics on HTML&amp;CSS,JavaScript,Jquery and Ruby.</description>
-        <pubDate>Sat, 23 May 2015 16:53:03 +0530</pubDate>
-        <link>http://localhost:4000/jekyll/update/2015/05/23/Update-on-codecademy.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2015/05/23/Update-on-codecademy.html</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>My first Post!</title>
-        <description>Hey guys this is my first blog-post in my website..</description>
-        <pubDate>Thu, 21 May 2015 16:53:03 +0530</pubDate>
-        <link>http://localhost:4000/jekyll/update/2015/05/21/my-first-post.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2015/05/21/my-first-post.html</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
     
   </channel>
 </rss>

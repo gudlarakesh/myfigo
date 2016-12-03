@@ -23,6 +23,8 @@
   <script src="/js/script.js"></script>
   <script src="/js/wow.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
   <script>
     new WOW().init();
   </script>
@@ -32,33 +34,22 @@
   <body>
 
     <header>
-  <nav class="navbar navbar-default">
-    <div class="container-fluid">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="/">
-          <img src="/images/layout/souri-thumb.jpg" alt="VS" class="img-circle">
-          <span class="name">P Vineet Souri</span>
-        </a>
-      </div>
 
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="/about/">About</a></li>
-          <li><a href="/portfolio/">Portfolio</a></li>
-          <li><a href="/skills/">Skills</a></li>
-          <!-- <li><a href="/blog/">Blog</a></li> -->
-          <li><a href="/contact/">Contact</a></li>
-        </ul>
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
+  <nav>
+    <div class="nav-wrapper">
+      <a href="/" class="brand-logo">Fego</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="/about/">About</a></li>
+        <li><a href="/products/">Products</a></li>
+        <li><a href="/contact/">Contact Us</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a href="/about/">About</a></li>
+        <li><a href="/products/">Products</a></li>
+        <li><a href="/contact/">Contact Us</a></li>
+      </ul>
+    </div>
   </nav>
 </header>
 
@@ -66,53 +57,6 @@
       <div class="container">
   <h1 class="page-title">My Blog</h1>
   <div id="blog">
-  
-    <div class="post">
-      <div class="post-when"><span class='post-date'>30</span><br><span class='post-month'>May</span></div>
-
-      <div class="post-details">
-        <h2>
-          <a class="post-link" href="/jekyll/update/2015/05/30/Calculator.html">Calculator App</a>
-        </h2>
-
-        <div class="excerpt"><p>Yeppieee...!!!</p>
-<p>Completed my calculator app.</p>
-<p>The calculator app contains all the basic mathematical operations like PLUS,MINUS,DIVISION and MULTIPLICATION.</p>
-<p>The design of the app looks cool and the background is crazy..</p>
-<p>Please check the app from below link.</p>
-<p><a href="https://vineetsouri.github.io/NewCalci">Link to Calculator App.</a></p></div>
-
-        <a href="/jekyll/update/2015/05/30/Calculator.html" class="read-more">Read more</a>
-      </div>
-    </div>
-  
-    <div class="post">
-      <div class="post-when"><span class='post-date'>23</span><br><span class='post-month'>May</span></div>
-
-      <div class="post-details">
-        <h2>
-          <a class="post-link" href="/jekyll/update/2015/05/23/Update-on-codecademy.html">Update on Codecademy basics..!!</a>
-        </h2>
-
-        <div class="excerpt">Guys feeling happy to announce that i have completed my codecademy basics on HTML&CSS,JavaScript,Jquery and Ruby.</div>
-
-        <a href="/jekyll/update/2015/05/23/Update-on-codecademy.html" class="read-more">Read more</a>
-      </div>
-    </div>
-  
-    <div class="post">
-      <div class="post-when"><span class='post-date'>21</span><br><span class='post-month'>May</span></div>
-
-      <div class="post-details">
-        <h2>
-          <a class="post-link" href="/jekyll/update/2015/05/21/my-first-post.html">My first Post!</a>
-        </h2>
-
-        <div class="excerpt">Hey guys this is my first blog-post in my website..</div>
-
-        <a href="/jekyll/update/2015/05/21/my-first-post.html" class="read-more">Read more</a>
-      </div>
-    </div>
   
 </div>
 </div>
