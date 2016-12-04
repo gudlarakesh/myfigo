@@ -18,7 +18,9 @@ nav {
 #land #landImage {
   height: 100vh;
   position: relative;
-  background-color: black; }
+  background-color: grey; }
+  #land #landImage .logoSet img {
+    margin-left: 100px; }
   #land #landImage .route a {
     color: #fff; }
     #land #landImage .route a:hover {
@@ -26,23 +28,23 @@ nav {
   #land #landImage .route .dexter {
     position: fixed;
     bottom: 5em;
-    left: 0;
-    background-color: black; }
+    left: 0; }
+    #land #landImage .route .dexter h5 {
+      background-color: black;
+      font-size: 30px;
+      padding: 5px; }
   #land #landImage .route .seat {
     position: fixed;
     bottom: 5em;
-    right: 0;
-    background-color: black; }
-
-#landBackGround {
-  background: url("../images/landing_page.jpg");
-  position: fixed; }
-
-.section_container {
-  height: 100vh; }
+    right: 0; }
+    #land #landImage .route .seat h5 {
+      background-color: black;
+      font-size: 30px;
+      padding: 5 px; }
 
 #section2 {
-  background: url("../images/landing_page2.jpg"); }
+  height: 100vh;
+  background: url("../images/land/landing_page.jpg"); }
 
 .icon {
   width: 3em; }

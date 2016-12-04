@@ -32,7 +32,12 @@ nav{
   #landImage{
     height: 100vh;
     position: relative;
-    background-color: black;
+    background-color: grey;
+    .logoSet{
+      img{
+        margin-left: 100px;
+      }
+    }
     .route{
       // bottom: 0;
       a{
@@ -45,29 +50,30 @@ nav{
         position: fixed;
         bottom: 5em;
         left:0;
-        background-color: black;
+        h5{
+          background-color: black;
+          font-size: 30px;
+          padding: 5px;
+        }
       }
       .seat{
         position: fixed;
         bottom: 5em;
         right:0;
-        background-color: black;
+        h5{
+          background-color: black;
+          font-size: 30px;
+          padding: 5 px;
+        }
       }
     }
   }
 }
 
-#landBackGround{
-  background: url('../images/landing_page.jpg');
-  position: fixed;
-}
-
-.section_container{
-  height: 100vh;
-}
 
 #section2{
-  background: url('../images/landing_page2.jpg');
+  height: 100vh;
+  background: url('../images/land/landing_page.jpg');
 }
 
 .icon{
