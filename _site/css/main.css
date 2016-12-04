@@ -18,19 +18,33 @@ nav {
 #land #landImage {
   height: 100vh;
   position: relative;
-  background-color: black; }
+  background-color: grey; }
+  #land #landImage .logoSet img {
+    margin-left: 100px; }
   #land #landImage .route a {
     color: #fff; }
     #land #landImage .route a:hover {
       text-decoration: none; }
   #land #landImage .route .dexter {
-    position: absolute;
+    position: fixed;
     bottom: 5em;
     left: 0; }
+    #land #landImage .route .dexter h5 {
+      background-color: black;
+      font-size: 30px;
+      padding: 5px; }
   #land #landImage .route .seat {
-    position: absolute;
+    position: fixed;
     bottom: 5em;
     right: 0; }
+    #land #landImage .route .seat h5 {
+      background-color: black;
+      font-size: 30px;
+      padding: 5 px; }
+
+#section2 {
+  height: 100vh;
+  background: url("../images/land/landing_page.jpg"); }
 
 .icon {
   width: 3em; }

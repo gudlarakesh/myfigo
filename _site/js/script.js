@@ -3,20 +3,23 @@ $(document).ready(function() {
   $('#landImage').particleground({
     dotColor: '#5cbdaa',
     lineColor: '#5cbdaa',
-    density: 20000
+    density: 25000
   });
   $(".button-collapse").sideNav();
   $(".dropdown").hover(            
-            function() {
-                $('.dropdown-menu', this).stop( true, true ).fadeIn("slow");
-                $(this).toggleClass('open');
-                // $('b', this).toggleClass("caret caret-up");                
-            },
-            function() {
-                $('.dropdown-menu', this).stop( true, true ).fadeOut("slow");
-                $(this).toggleClass('open');
-                // $('b', this).toggleClass("caret caret-up");                
-            });
-
-
+    function() {
+      $('.dropdown-menu', this).stop( true, true ).fadeIn("slow");
+      $(this).toggleClass('open');
+      // $('b', this).toggleClass("caret caret-up");                
+    },
+    function() {
+      $('.dropdown-menu', this).stop( true, true ).fadeOut("slow");
+      $(this).toggleClass('open');
+      // $('b', this).toggleClass("caret caret-up");                
+    });
+  $('#section2').particleground({
+    dotColor: '#5cbdaa',
+    lineColor: '#5cbdaa',
+    density: 10000
+  });
 });

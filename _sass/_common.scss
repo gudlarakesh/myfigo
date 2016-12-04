@@ -32,7 +32,12 @@ nav{
   #landImage{
     height: 100vh;
     position: relative;
-    background-color: black;
+    background-color: grey;
+    .logoSet{
+      img{
+        margin-left: 100px;
+      }
+    }
     .route{
       // bottom: 0;
       a{
@@ -42,17 +47,33 @@ nav{
         }
       }
       .dexter{
-        position: absolute;
+        position: fixed;
         bottom: 5em;
         left:0;
+        h5{
+          background-color: black;
+          font-size: 30px;
+          padding: 5px;
+        }
       }
       .seat{
-        position: absolute;
+        position: fixed;
         bottom: 5em;
         right:0;
+        h5{
+          background-color: black;
+          font-size: 30px;
+          padding: 5 px;
+        }
       }
     }
   }
+}
+
+
+#section2{
+  height: 100vh;
+  background: url('../images/land/landing_page.jpg');
 }
 
 .icon{
