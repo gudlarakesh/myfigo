@@ -2,6 +2,58 @@
 //   height: 100vh !important;
 // }
 
+body {
+  font-family: 'Dosis', sans-serif;
+}
+
+nav{
+  background-color: #fff;
+  img{
+    margin-left: 20px;
+  }
+  ul{
+    a{
+      color: black;
+      font-size: 20px;
+    }
+    .dropdown-menu{
+        width: 100%;
+      a{
+        font-size: 15px;
+      }
+    }
+  }
+  a:hover{
+    text-decoration: none;
+  }
+}
+
+#land{
+  #landImage{
+    height: 100vh;
+    position: relative;
+    background-color: black;
+    .route{
+      // bottom: 0;
+      a{
+        color: #fff;
+        &:hover{
+          text-decoration: none;
+        }
+      }
+      .dexter{
+        position: absolute;
+        bottom: 5em;
+        left:0;
+      }
+      .seat{
+        position: absolute;
+        bottom: 5em;
+        right:0;
+      }
+    }
+  }
+}
 
 .icon{
   width: 3em;
@@ -14,4 +66,14 @@
 
 .product-image{
   width: 100%;
+}
+
+.mainText{
+  height: 60vh;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  h3{
+    margin-top: 10%;
+    top: 50%;
+  }
 }
