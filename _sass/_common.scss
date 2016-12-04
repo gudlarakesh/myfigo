@@ -29,11 +29,19 @@ nav{
 }
 
 #land{
-   
   #landImage{
     height: 100vh;
     position: relative;
     background-color: black;
+    .logoSet{
+        height: 14em;
+        width: 14em;
+        margin: auto;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+    }
     .route{
       // bottom: 0;
       a{
@@ -59,18 +67,18 @@ nav{
         h5{
           background-color: black;
           font-size: 30px;
-          padding-left: 40px;
+          padding: 5 px;
         }
       }
     }
   }
+  #section2{
+    height: 100vh;
+    background: url('../images/land/landing_page.jpg');
+  }
 }
 
 
-#section2{
-  height: 100vh;
-  background: url('../images/land/landing_page.jpg');
-}
 
 .icon{
   width: 3em;
