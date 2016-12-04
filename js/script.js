@@ -3,7 +3,7 @@ $(document).ready(function() {
   $('#landImage').particleground({
     dotColor: '#5cbdaa',
     lineColor: '#5cbdaa',
-    density: 25000
+    density: 10000
   });
   $(".button-collapse").sideNav();
   $(".dropdown").hover(            
