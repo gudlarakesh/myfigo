@@ -42,17 +42,32 @@ nav{
         }
       }
       .dexter{
-        position: absolute;
+        position: fixed;
         bottom: 5em;
         left:0;
+        background-color: black;
       }
       .seat{
-        position: absolute;
+        position: fixed;
         bottom: 5em;
         right:0;
+        background-color: black;
       }
     }
   }
+}
+
+#landBackGround{
+  background: url('../images/landing_page.jpg');
+  position: fixed;
+}
+
+.section_container{
+  height: 100vh;
+}
+
+#section2{
+  background: url('../images/landing_page2.jpg');
 }
 
 .icon{

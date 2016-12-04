@@ -24,13 +24,25 @@ nav {
     #land #landImage .route a:hover {
       text-decoration: none; }
   #land #landImage .route .dexter {
-    position: absolute;
+    position: fixed;
     bottom: 5em;
-    left: 0; }
+    left: 0;
+    background-color: black; }
   #land #landImage .route .seat {
-    position: absolute;
+    position: fixed;
     bottom: 5em;
-    right: 0; }
+    right: 0;
+    background-color: black; }
+
+#landBackGround {
+  background: url("../images/landing_page.jpg");
+  position: fixed; }
+
+.section_container {
+  height: 100vh; }
+
+#section2 {
+  background: url("../images/landing_page2.jpg"); }
 
 .icon {
   width: 3em; }
