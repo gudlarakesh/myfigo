@@ -29,15 +29,11 @@ nav{
 }
 
 #land{
+   
   #landImage{
     height: 100vh;
     position: relative;
     background-color: black;
-    .logoSet{
-      img{
-        margin-left: 100px;
-      }
-    }
     .route{
       // bottom: 0;
       a{
@@ -63,7 +59,7 @@ nav{
         h5{
           background-color: black;
           font-size: 30px;
-          padding: 5 px;
+          padding-left: 40px;
         }
       }
     }

@@ -18,9 +18,7 @@ nav {
 #land #landImage {
   height: 100vh;
   position: relative;
-  background-color: grey; }
-  #land #landImage .logoSet img {
-    margin-left: 100px; }
+  background-color: black; }
   #land #landImage .route a {
     color: #fff; }
     #land #landImage .route a:hover {
@@ -40,7 +38,7 @@ nav {
     #land #landImage .route .seat h5 {
       background-color: black;
       font-size: 30px;
-      padding: 5 px; }
+      padding-left: 40px; }
 
 #section2 {
   height: 100vh;
