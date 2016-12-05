@@ -29,17 +29,19 @@ nav{
 }
 
 #land{
-  #landImage{
     height: 100vh;
+    background: url('../images/land.jpg');
+    background-size: cover;
+    width:100%;
+  #landImage{
     position: relative;
-    background-color: black;
     .logoSet{
         height: 14em;
         width: 14em;
         margin: auto;
+        transform: translateY(100%);
       img{
-        width: 100%;
-        height: 100%;
+        width: 100%;  
       }
     }
     .route{
@@ -72,10 +74,10 @@ nav{
       }
     }
   }
-  #section2{
-    height: 100vh;
-    background: url('../images/land/landing_page.jpg');
-  }
+  // #section2{
+  //   height: 100vh;
+  //   background: url('../images/land/landing_page.jpg');
+  // }
 }
 
 

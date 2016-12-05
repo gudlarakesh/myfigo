@@ -1,10 +1,10 @@
 $(document).ready(function() {
   $('.parallax').parallax();
-  $('#landImage').particleground({
-    dotColor: '#5cbdaa',
-    lineColor: '#5cbdaa',
-    density: 25000
-  });
+  // $('#landImage').particleground({
+  //   dotColor: '#5cbdaa',
+  //   lineColor: '#5cbdaa',
+  //   density: 25000
+  // });
   $(".button-collapse").sideNav();
   $(".dropdown").hover(            
     function() {
@@ -17,9 +17,9 @@ $(document).ready(function() {
       $(this).toggleClass('open');
       // $('b', this).toggleClass("caret caret-up");                
     });
-  $('#section2').particleground({
-    dotColor: '#5cbdaa',
-    lineColor: '#5cbdaa',
-    density: 25000
-  });
+  // $('#section2').particleground({
+  //   dotColor: '#5cbdaa',
+  //   lineColor: '#5cbdaa',
+  //   density: 25000
+  // });
 });
