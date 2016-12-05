@@ -1,3 +1,43 @@
+#dexter {
+  background-image: url("../images/dexter_carry.jpg");
+  background-attachment: fixed; }
+  #dexter .mainImage {
+    height: 100vh; }
+  #dexter .mainText {
+    height: 60vh;
+    background-color: black;
+    opacity: 0.8; }
+    #dexter .mainText h3 {
+      margin-top: 10%;
+      top: 50%;
+      color: white; }
+  #dexter .white {
+    height: 100vh; }
+    #dexter .white ul li {
+      padding-top: 20px; }
+
+#seat {
+  background-image: url("../images/landing_page.jpg");
+  background-attachment: fixed; }
+  #seat .mainText {
+    height: 60vh;
+    background-color: black;
+    opacity: 0.8; }
+    #seat .mainText h3 {
+      margin-top: 10%;
+      top: 50%;
+      color: white; }
+  #seat .white {
+    height: 100vh; }
+    #seat .white ul li {
+      padding-top: 20px; }
+
+#contact {
+  margin-top: 90px;
+  position: relative; }
+  #contact .contact-us img {
+    margin-left: 90px; }
+
 body {
   font-family: 'Dosis', sans-serif; }
 
@@ -17,6 +57,9 @@ nav {
 
 #land {
   height: 99.7vh;
+  background: url("../images/landing_page.jpg");
+  background-size: cover;
+  z-index: 1;
   width: 100%; }
   #land #landImage {
     position: relative; }
@@ -36,7 +79,6 @@ nav {
       bottom: 5em;
       left: 0; }
       #land #landImage .route .dexter h5 {
-        background-color: black;
         font-size: 30px;
         padding: 5px; }
     #land #landImage .route .seat {
@@ -44,7 +86,6 @@ nav {
       bottom: 5em;
       right: 0; }
       #land #landImage .route .seat h5 {
-        background-color: black;
         font-size: 30px;
         padding-left: 25px; }
 
@@ -58,10 +99,9 @@ nav {
 .product-image {
   width: 100%; }
 
-.mainText {
-  height: 60vh;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.5); }
-  .mainText h3 {
-    margin-top: 10%;
-    top: 50%; }
+.youtubeIcon {
+  transform: translateY(-150%);
+  float: right;
+  margin-right: 50px; }
+  .youtubeIcon:hover {
+    color: red; }

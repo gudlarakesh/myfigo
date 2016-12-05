@@ -19,9 +19,10 @@
   <link rel="alternate" type="application/rss+xml" title="Fego" href="http://localhost:4000/myfigo/feed.xml" />
   <link href="https://fonts.googleapis.com/css?family=Dosis:200" rel="stylesheet">
   <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
   <script src="/myfigo/js/geomentry.js"></script>
-  <script src="/myfigo/js/particle.js"></script>
+  <script src="/myfigo/js/scrollorama.js"></script>
   <script src="/myfigo/js/wow.min.js"></script>
   <script src="/myfigo/js/script.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
@@ -40,7 +41,7 @@
   <nav>
     <div class="nav-wrapper">
       <a href="/myfigo/" class="brand-logo">
-        <img src="/myfigo/images/logo8.png" alt="" style="height:50px;width:50px">
+        <img src="/myfigo/images/logo8.png" alt="" style="height:37.2px;width:50px">
       </a>
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down">
@@ -63,50 +64,46 @@
 </header>
 
     <div>
-      <div class="parallax-container">
-  <div class="parallax"><img src="/myfigo/images/landing_page.jpg"></div>
-</div>
-<div class="mainText">
-    <div class="row">
-        <div class="text-center">
-            <h3 class="wow zoomIn">"Great rides don't mean great roads"</h3>
-        </div>
-    </div>
-</div>
-<div class="parallax-container">
-  <div class="parallax"><img src="/myfigo/images/landing_page.jpg"></div>
-</div>
-<div class="section seat">
-  <div class="row">
-    <div class="col s6">
-      <ul class="product">
-       <li class="icon-li"> <img class="icon wow slideInLeft" src="/myfigo/images/icons/noun_609097_cc.png" alt="">
-         Pneumatic Suspension
-       </li>
-       <li class="icon-li"> <img class="icon wow slideInLeft" src="/myfigo/images/icons/noun_167945_cc.png" alt="" >
-       Dynamic Seating System
-       </li>
-       <li class="icon-li"> <img class="icon wow slideInLeft" src="/myfigo/images/icons/noun_332395_cc.png" alt="" >
-       BackRest Integration
-       </li>
-       <li class="icon-li"> <img class="icon wow slideInLeft" src="/myfigo/images/icons/noun_194055_cc.png" alt="" >
-       Zero-Strain Seating
-       </li>
-       <li class="icon-li"> <img class="icon wow slideInLeft" src="/myfigo/images/icons/noun_712421_cc.png" alt="" >
-       Air-Ride
-       </li>
-       <li class="icon-li"> <img class="icon wow slideInLeft" src="/myfigo/images/icons/noun_705907_cc.png" alt="" >
-       Style
-       </li>
-     </ul>
-   </div>
-   <div class="col s6">
-    <img class="product-image wow zoomInRight" style="height:64vh;" src="/myfigo/images/dexter_images/seat.jpg">
+      <div id="seat">
+  <div class="parallax-container">
+    <!--<div class="parallax"><img src="/myfigo/images/landing_page.jpg"></div>-->
   </div>
-</div>
-</div>
-<div class="parallax-container">
-  <div class="parallax"><img src="/myfigo/images/landing_page.jpg"></div>
+  <div class="mainText">
+      <div class="row">
+          <div class="text-center">
+              <h3 class="wow zoomIn">"Great rides don't mean great roads"</h3>
+          </div>
+      </div>
+  </div>
+  <div class="section white">
+    <div class="row">
+      <div class="col s6">
+        <ul class="product">
+        <li class="icon-li"> <img class="icon wow slideInLeft" src="/myfigo/images/icons/noun_609097_cc.png" alt="">
+          Pneumatic Suspension
+        </li>
+        <li class="icon-li"> <img class="icon wow slideInLeft" src="/myfigo/images/icons/noun_167945_cc.png" alt="" >
+        Dynamic Seating System
+        </li>
+        <li class="icon-li"> <img class="icon wow slideInLeft" src="/myfigo/images/icons/noun_332395_cc.png" alt="" >
+        BackRest Integration
+        </li>
+        <li class="icon-li"> <img class="icon wow slideInLeft" src="/myfigo/images/icons/noun_194055_cc.png" alt="" >
+        Zero-Strain Seating
+        </li>
+        <li class="icon-li"> <img class="icon wow slideInLeft" src="/myfigo/images/icons/noun_712421_cc.png" alt="" >
+        Air-Ride
+        </li>
+        <li class="icon-li"> <img class="icon wow slideInLeft" src="/myfigo/images/icons/noun_705907_cc.png" alt="" >
+        Style
+        </li>
+      </ul>
+    </div>
+    <div class="col s6">
+      <img class="product-image wow zoomInRight" style="height:87vh;" src="/myfigo/images/dexter_images/seat.jpg">
+    </div>
+  </div>
+  </div>
 </div>
 
 

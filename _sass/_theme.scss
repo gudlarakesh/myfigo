@@ -1,0 +1,62 @@
+#dexter{
+        background-image: url("../images/dexter_carry.jpg");
+        background-attachment: fixed;
+    .mainImage{
+        height: 100vh;
+    }
+    .mainText{
+    height: 60vh;
+    background-color: black;
+    // color:black;
+    opacity:0.8;
+        h3{
+            margin-top: 10%;
+            top: 50%;
+            color:white;
+        }
+    }
+    .white{
+        height: 100vh;
+        ul{
+            li{
+                padding-top: 20px;
+            }
+        }
+    }
+}
+
+#seat{
+    background-image: url("../images/landing_page.jpg");
+    background-attachment: fixed;
+    .mainText{
+    height: 60vh;
+    background-color: black;
+    // color:black;
+    opacity:0.8;
+        h3{
+            margin-top: 10%;
+            top: 50%;
+            color:white;
+        }
+    }
+    .white{
+        height: 100vh;
+        ul{
+            li{
+                padding-top: 20px;
+            }
+        }
+    }
+}
+
+#contact{
+    margin-top: 90px;
+    position: relative;
+    .contact-us{
+        // position: absolute;
+        // margin: auto;
+        img{
+            margin-left: 90px;
+        }
+    }
+}
