@@ -45,7 +45,7 @@ nav {
     #land #landImage .route .seat h5 {
       background-color: black;
       font-size: 30px;
-      padding: 5 px; }
+      padding-left: 25px; }
 #land #section2 {
   height: 100vh;
   background: url("../images/land/landing_page.jpg"); }
