@@ -16,9 +16,7 @@ nav {
     text-decoration: none; }
 
 #land {
-  height: 100vh;
-  background: url("../images/land.jpg");
-  background-size: cover;
+  height: 99.7vh;
   width: 100%; }
   #land #landImage {
     position: relative; }
