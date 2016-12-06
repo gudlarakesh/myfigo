@@ -132,6 +132,14 @@ nav{
         }
       }
     }
+    #about{
+      .card-image{
+        position: absolute;
+      }
+      .card-stacked{
+        margin-top: 250px;
+      }
+    }
 }
 
 
