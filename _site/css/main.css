@@ -89,6 +89,28 @@ nav {
         font-size: 30px;
         padding-left: 25px; }
 
+@media only screen and (max-width: 500px) {
+  nav .material-icons {
+    color: black; }
+
+  #land #landImage .route .dexter {
+    bottom: 4.8em; }
+    #land #landImage .route .dexter h5 {
+      font-size: 20px; }
+  #land #landImage .route .seat h5 {
+    font-size: 20px; }
+
+  #dexter {
+    background-position-x: 67%; }
+    #dexter .mainText h3 {
+      margin-top: 35%;
+      font-size: 30px; }
+    #dexter .white ul li img {
+      padding-right: 5px; }
+
+  #seat .mainText h3 {
+    margin-top: 35%;
+    font-size: 30px; } }
 .icon {
   width: 3em; }
 

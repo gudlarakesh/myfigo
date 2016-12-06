@@ -81,6 +81,59 @@ nav{
   // }
 }
 
+@media only screen and (max-width: 500px) {
+  nav{
+    .material-icons{
+      color: black;
+    }
+  }
+    #land{
+     #landImage{
+       .route{
+        .dexter{
+          bottom: 4.8em;
+          h5{
+            font-size:20px;
+          }
+        }
+        .seat{
+          h5{
+            font-size:20px;
+          }
+        }
+       }
+     } 
+    }
+
+    #dexter{
+      background-position-x: 67%;
+      .mainText{
+        h3{
+          margin-top: 35%;
+          font-size: 30px;
+        }
+      }
+      .white{
+        ul{
+
+            li{
+              img{
+                padding-right: 5px;
+              }
+            }
+          }
+      }
+    }
+    #seat{
+      .mainText{
+        h3{
+          margin-top: 35%;
+          font-size: 30px;
+        }
+      }
+    }
+}
+
 
 
 .icon{
