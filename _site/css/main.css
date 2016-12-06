@@ -12,6 +12,7 @@
       top: 50%;
       color: white; }
   #dexter .white {
+    padding: 0;
     height: 100vh; }
     #dexter .white ul li {
       padding-top: 20px; }
@@ -28,6 +29,7 @@
       top: 50%;
       color: white; }
   #seat .white {
+    padding: 0;
     height: 100vh; }
     #seat .white ul li {
       padding-top: 20px; }
