@@ -127,6 +127,7 @@ nav {
     font-size: 20px; }
 
   #dexter {
+    background-position-x: 67%;
     background-size: cover; }
     #dexter .mainText h3 {
       margin-top: 35%;
