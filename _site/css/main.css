@@ -91,33 +91,6 @@ nav {
         font-size: 30px;
         padding-left: 25px; }
 
-@media only screen and (max-width: 500px) {
-  nav .material-icons {
-    color: black; }
-
-  #land #landImage .route .dexter {
-    bottom: 4.8em; }
-    #land #landImage .route .dexter h5 {
-      font-size: 20px; }
-  #land #landImage .route .seat h5 {
-    font-size: 20px; }
-
-  #dexter {
-    background-position-x: 67%; }
-    #dexter .mainText h3 {
-      margin-top: 35%;
-      font-size: 30px; }
-    #dexter .white ul li img {
-      padding-right: 5px; }
-
-  #seat .mainText h3 {
-    margin-top: 35%;
-    font-size: 30px; }
-
-  #about .card-image {
-    position: absolute; }
-  #about .card-stacked {
-    margin-top: 250px; } }
 .icon {
   width: 3em; }
 
@@ -141,3 +114,38 @@ nav {
   padding-left: 10px; }
 #about .card-image img {
   height: 40vh; }
+
+@media only screen and (max-width: 500px) {
+  nav .material-icons {
+    color: black; }
+
+  #land #landImage .route .dexter {
+    bottom: 4.8em; }
+    #land #landImage .route .dexter h5 {
+      font-size: 20px; }
+  #land #landImage .route .seat h5 {
+    font-size: 20px; }
+
+  #dexter {
+    background-size: cover; }
+    #dexter .mainText h3 {
+      margin-top: 35%;
+      font-size: 30px; }
+    #dexter .white .row {
+      margin-bottom: 0; }
+    #dexter .white ul li img {
+      padding-right: 5px; }
+    #dexter .white .icon-li {
+      padding-left: 3em; }
+
+  #seat .mainText h3 {
+    margin-top: 35%;
+    font-size: 30px; }
+
+  #about .card-image {
+    position: absolute; }
+  #about .card-stacked {
+    margin-top: 250px; }
+
+  .icon-li {
+    padding-left: 2em; } }
