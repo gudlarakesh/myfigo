@@ -1,4 +1,11 @@
 $(document).ready(function() {
+
+  if(screen.width < 768){
+    $(".navbar-fixed").removeClass("navbar-fixed");
+  } else{
+    $(".add-navbar").addClass("navbar-fixed");
+  }
+
   $('.parallax').parallax();
   // $('#landImage').particleground({
   //   dotColor: '#5cbdaa',
@@ -27,7 +34,7 @@ $(document).ready(function() {
 
   }, lights: [{
     // ambient: "rgba(0,0,0,1)", // (,hover intensity,,)
-    diffuse: "rgba(192,192,192,0.2)",
+    diffuse: "rgba(192,192,192,0.4)",
     speed: 0.05,
     gravity: 800,
     zOffset: 60,

@@ -1,8 +1,9 @@
 #dexter {
-  background-image: url("../images/dexter_carry.jpg");
-  background-attachment: fixed; }
+  background-image: url("../images/dexter_carry_2.jpg");
+  background-attachment: fixed;
+  background-size: cover; }
   #dexter .mainImage {
-    height: 100vh; }
+    height: 81vh; }
   #dexter .mainText {
     height: 60vh;
     background-color: black;
@@ -14,12 +15,24 @@
   #dexter .white {
     padding: 0;
     height: 100vh; }
-    #dexter .white ul li {
-      padding-top: 20px; }
+    #dexter .white .row {
+      margin-bottom: 0; }
+    #dexter .white .dexterFeatures {
+      margin-top: 83px; }
+      #dexter .white .dexterFeatures ul li {
+        padding-top: 20px; }
+    #dexter .white .dexterImage {
+      height: 100vh;
+      padding: 0px; }
+      #dexter .white .dexterImage .img-responsive {
+        width: 100%; }
 
 #seat {
-  background-image: url("../images/landing_page.jpg");
-  background-attachment: fixed; }
+  background-image: url("../images/seat_background.jpg");
+  background-attachment: fixed;
+  background-size: cover; }
+  #seat .mainImage {
+    height: 81vh; }
   #seat .mainText {
     height: 60vh;
     background-color: black;
@@ -31,8 +44,15 @@
   #seat .white {
     padding: 0;
     height: 100vh; }
-    #seat .white ul li {
-      padding-top: 20px; }
+    #seat .white .seatFeatures {
+      margin-top: 83px; }
+      #seat .white .seatFeatures ul li {
+        padding-top: 20px; }
+    #seat .white .seatImage {
+      padding: 0;
+      height: 80vh; }
+      #seat .white .seatImage .img-responsive {
+        width: 100%; }
 
 #contact {
   margin-top: 90px;
@@ -98,9 +118,6 @@ nav {
   padding-left: 7em;
   font-size: 1.7em; }
 
-.product-image {
-  width: 100%; }
-
 .youtubeIcon {
   transform: translateY(-150%);
   float: right;
@@ -109,11 +126,31 @@ nav {
     color: red; }
 
 #about h4 {
-  font-size: 28px; }
+  font-size: 13px;
+  margin: 10px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 20px; }
 #about h2 {
-  padding-left: 10px; }
+  padding-left: 10px;
+  font-size: 27px;
+  font-weight: 400; }
 #about .card-image img {
-  height: 40vh; }
+  height: 30vh; }
+#about .card {
+  box-shadow: none; }
+  #about .card .card-content {
+    padding-bottom: 0; }
+  #about .card .teamDescription {
+    margin-top: 102px; }
+  #about .card .madhavDescription {
+    margin-top: 120px; }
+  #about .card h3 {
+    font-size: 23px;
+    font-weight: 400; }
+  #about .card h5 {
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 18px; }
 
 @media only screen and (max-width: 500px) {
   nav .material-icons {
@@ -137,15 +174,22 @@ nav {
       padding-right: 5px; }
     #dexter .white .icon-li {
       padding-left: 3em; }
+    #dexter .white .dexterImage {
+      padding: 0px;
+      height: 0; }
 
   #seat .mainText h3 {
     margin-top: 35%;
     font-size: 30px; }
+  #seat .white .seatImage {
+    height: 63vh; }
 
   #about .card-image {
     position: absolute; }
+    #about .card-image img {
+      margin-left: 17px; }
   #about .card-stacked {
-    margin-top: 250px; }
+    margin-top: 100px; }
 
   .icon-li {
     padding-left: 2em; } }

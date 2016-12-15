@@ -1,8 +1,9 @@
 #dexter{
-        background-image: url("../images/dexter_carry.jpg");
+        background-image: url("../images/dexter_carry_2.jpg");
         background-attachment: fixed;
+        background-size: cover;
     .mainImage{
-        height: 100vh;
+        height: 81vh;
     }
     .mainText{
     height: 60vh;
@@ -18,17 +19,34 @@
     .white{
         padding:0;
         height: 100vh;
-        ul{
-            li{
-                padding-top: 20px;
+        .row{
+            margin-bottom: 0;
+        }
+        .dexterFeatures{
+            margin-top:83px;
+            ul{
+                li{
+                    padding-top: 20px;
+                }
+            }
+        }
+        .dexterImage{
+            height:100vh;
+            padding: 0px;
+            .img-responsive{
+                width:100%;
             }
         }
     }
 }
 
 #seat{
-    background-image: url("../images/landing_page.jpg");
+    background-image: url("../images/seat_background.jpg");
     background-attachment: fixed;
+    background-size: cover;
+    .mainImage{
+        height: 81vh;
+    }
     .mainText{
     height: 60vh;
     background-color: black;
@@ -43,9 +61,19 @@
     .white{
         padding: 0;
         height: 100vh;
-        ul{
-            li{
-                padding-top: 20px;
+        .seatFeatures{
+            margin-top: 83px;
+            ul{
+                li{
+                    padding-top: 20px;
+                }
+            }
+        }
+        .seatImage{
+            padding: 0;
+            height:80vh;
+            .img-responsive{
+                width:100%;
             }
         }
     }

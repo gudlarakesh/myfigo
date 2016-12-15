@@ -17,7 +17,8 @@
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://localhost:4000/dexter/">
   <link rel="alternate" type="application/rss+xml" title="Fego" href="http://localhost:4000/feed.xml" />
-  <link href="https://fonts.googleapis.com/css?family=Dosis:200" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Dosis:200,400" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
   <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
@@ -37,8 +38,8 @@
   <body>
 
     <header>
-
-  <nav>
+<div class="navbar-fixed add-navbar">
+   <nav>
     <div class="nav-wrapper">
       <a href="/" class="brand-logo">
         <img src="/images/logo8.png" alt="" style="height:37.2px;width:50px">
@@ -63,6 +64,7 @@
       </ul>
     </div>
   </nav>
+</div>
 </header>
 
     <div>
@@ -78,7 +80,7 @@
   </div>
   <div class="section white">
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-6 dexterFeatures">
         <ul class="product">
         <li class="icon-li"> <img class="icon wow slideInLeft" src="/images/icons/1_modular.png" alt="">Modular</li>
         <li class="icon-li"> <img class="icon wow slideInLeft" src="/images/icons/2_more_space.png" alt="">More Space</li>
@@ -88,8 +90,8 @@
         <li class="icon-li"> <img class="icon wow slideInLeft" src="/images/icons/6_brand_visibility.png" alt="">Brand Visibility</li>
       </ul>
     </div>
-    <div class="col-md-6 dexerImage" style="padding:0px;height:80vh;">
-      <img class="product-image" style="height:100vh" src="/images/dexter_1.jpg">
+    <div class="col-md-6 dexterImage">
+      <img class="product-image img-responsive" src="/images/dexter_1.jpg">
       <a href="https://www.youtube.com/watch?v=uJltAQLqri4&feature=em-upload_owner#action=share" title="Check in Youtube"  target="_blank">
         <img class="icon youtubeIcon" src="/images/icons/YouTube-icon-dark.png" alt="">
       </a>
