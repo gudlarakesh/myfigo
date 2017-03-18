@@ -2,8 +2,7 @@
 title: Fego
 email: 
 description: > # this means to ignore newlines until "baseurl:"
-  Feel Good Innovations is a startup that is building innovative
-  motorcycle accessories for the new-age customer.
+  Feel Good Innovations is a startup that is building innovative motorcycle accessories for the new-age customer.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://fegoinnovations.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb

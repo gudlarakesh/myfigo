@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fego</title>
-    <description>Feel Good Innovations is a startup that is building innovative
-  motorcycle accessories for the new-age customer.</description>
+    <description>Feel Good Innovations is a startup that is building innovative motorcycle accessories for the new-age customer.
+</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 30 Dec 2016 14:46:05 +0530</pubDate>
-    <lastBuildDate>Fri, 30 Dec 2016 14:46:05 +0530</lastBuildDate>
+    <pubDate>Sat, 18 Mar 2017 09:29:27 +0530</pubDate>
+    <lastBuildDate>Sat, 18 Mar 2017 09:29:27 +0530</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
   </channel>
