@@ -79,7 +79,6 @@ nav {
 
 #land {
   height: 99.7vh;
-  background: url("../images/landing_page.jpg");
   background-size: cover;
   z-index: 1;
   width: 100%; }
